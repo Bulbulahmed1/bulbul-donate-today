@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    width:1440px;
+    height: 669px;
+    text-align: center;
+    
+}
+.primary-button {
+    padding:10px 15px;
+    background-color:orangered;
+    margin-top:30px;
+}
+img {
+    
+    width: 1000px;
+    height: 450px;
+
+}
+.donate-today {
+    width:1440px;
+    height: 509px;
+    text-align: center;
+    color:black;
+    background-color: aliceblue;
+   }
+.donate-today p{
+    text-align:center;
+    width:400px;
+    padding-left: 520px;}
+
+li {
+    display:inline-flex;
+    padding: 35px;
+    background-color: rgb(110, 81, 81);
+    font-size: 2em;
+    }
+    .donate-today p.Amount{
+        margin-top:50px;
+    }
+    hr {
+        width: 450px;
+        margin-left:500px;
+        margin-top:10px;
+
+    }
+#donate-plan {
+    width:1440px;
+    height: 509px;
+    text-align: center;
+    color:black;
+    background-color: rgb(235, 239, 243);
+   
+}
+#donate-plan .food-shelter-education {
+    display:inline-flex;
+    
+ 
+}
+
+#donate-plan .food {
+    width:300px;
+    height: 250px;
+    text-align: center;
+    background-color: rgb(109, 131, 228);
+    margin-top: 50px;
+    
+ 
+}
+#donate-plan .shelter {
+    width:300px;
+    height: 250px;
+    text-align: center;
+    background-color: rgb(126, 163, 65);
+    margin-top: 50px;
+    
+}
+
+#donate-plan .Education {
+    width:300px;
+    height: 250px;
+    text-align: center;
+    background-color: rgb(150, 94, 49);
+    margin-top: 50px;
+    
+}
