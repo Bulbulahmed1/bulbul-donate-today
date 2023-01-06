@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -7,7 +7,17 @@
     width:1440px;
     height: 669px;
     text-align: center;
+    background-image: url("../bulbul-donate-today/images/donation0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     
+ 
+    
+}
+.header .header-content{
+   padding-top:250px; 
+   color:white;
+   
 }
 .primary-button {
     padding:10px 15px;
@@ -26,17 +36,20 @@ img {
     text-align: center;
     color:black;
     background-color: aliceblue;
+    padding-top: 50px;
+  
    }
 .donate-today p{
     text-align:center;
     width:400px;
-    padding-left: 520px;}
+    }
 
 li {
     display:inline-flex;
     padding: 35px;
     background-color: rgb(110, 81, 81);
     font-size: 2em;
+    margin-top:20px;
     }
     .donate-today p.Amount{
         margin-top:50px;
@@ -47,43 +60,66 @@ li {
         margin-top:10px;
 
     }
-#donate-plan {
+.donate-plan {
     width:1440px;
     height: 509px;
     text-align: center;
     color:black;
     background-color: rgb(235, 239, 243);
+    padding-top: 50px;
    
 }
-#donate-plan .food-shelter-education {
-    display:inline-flex;
-    
- 
+.food, .shelter, .Education {
+    display:inline-block; 
+    width:300px;
+    height: 200px;
+    padding: 20px; 
+    margin-top:50px;
 }
 
-#donate-plan .food {
-    width:300px;
-    height: 250px;
-    text-align: center;
+.food {
     background-color: rgb(109, 131, 228);
-    margin-top: 50px;
-    
+    padding-top: 50px;
+ }
+.shelter {
+    background-color: rgb(126, 163, 65);
+    padding-top: 50px;
+}
+.Education {
+    background-color: rgb(150, 94, 49);
+    padding-top: 50px;
+}
+.contribute {
+    width:1440px;
+    height: 600px;
+    text-align: left;
+    background-color: rgb(223, 223, 223);
+    margin:auto;
+    }
+    .contribute2 {
+        width:1440px;
+        height: 600px;
+        text-align: left;
+        background-color: rgb(107, 84, 84);
+        margin:auto;
+        padding-top: 50px;
+        }
+.left-contribute, .right-contribute {
+    display: inline-block;
+    width: 600px;
+    padding-left: 100px;
  
 }
-#donate-plan .shelter {
-    width:300px;
-    height: 250px;
-    text-align: center;
-    background-color: rgb(126, 163, 65);
+.right-contribute {
     margin-top: 50px;
-    
 }
-
-#donate-plan .Education {
-    width:300px;
-    height: 250px;
-    text-align: center;
-    background-color: rgb(150, 94, 49);
-    margin-top: 50px;
-    
+.img-contribute {
+    width: 400px;
+    height: 300px;
+}
+.my-updates{
+    width:1440px;
+    height: 669px;
+    text-align: center; 
+    background-color: antiquewhite;
 }
