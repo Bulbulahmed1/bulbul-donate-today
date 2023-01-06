@@ -72,59 +72,63 @@ hr {
     color:black;
     background-color: rgb(235, 239, 243);
     padding-top: 50px;
+    margin: auto;
     }
-.p-plan {
+.donate-content{
+    display: inline-flex;
+    padding: 20px;
+    }
+.plan {
     width: 450px;
-    margin-top: 25px;
+    margin-top: 10px;
   }
 
 .food, .shelter, .Education {
-    display:inline-block; 
     width:300px;
     height: 200px;
-    padding: 20px; 
-    margin-top:50px;
+    margin-top:30px;
+     padding: 20px;
 }
 
 .food {
-    background-color: rgb(109, 131, 228);
+    background-color: rgb(192, 202, 250);
     padding-top: 50px;
  }
 .shelter {
-    background-color: rgb(126, 163, 65);
+    background-color: rgb(208, 247, 146);
     padding-top: 50px;
     }
 .Education {
-    background-color: rgb(150, 94, 49);
+    background-color: rgb(255, 198, 152);
     padding-top: 50px;
     }
 .contribute {
     width:1440px;
     height: 400px;
+    display: flex;
     text-align: left;
     background-color: rgb(223, 223, 223);
-    margin:auto;
     }
 .contribute2 {
         width:1440px;
         height: 400px;
+        display: flex;
         text-align: left;
         background-color: rgb(107, 84, 84);
-        margin:auto;
-        padding-top: 50px;
-    }
+
+        }
 .left-contribute, .right-contribute {
     display: inline-block;
     width: 600px;
-    padding-left: 100px;
+    padding: 90px;
     }
-.right-contribute {
-    margin-top: 50px;
-}
+
 .img-contribute {
     width: 400px;
-    height: 300px;
+    height: 240px;
+    padding-left: 30px;
     }
+
 .my-updates{
     width:1440px;
     height: 450px;
@@ -133,7 +137,7 @@ hr {
     padding-top: 50px;
     }
 .box {
-        width: 400px;
+        width: 420px;
         height: 100px;
         padding: 50px;
         margin-top: 100px;
@@ -155,7 +159,7 @@ hr {
 }
 .footer h1{
     color:brown;
-    text-decoration: italic;
+    font-style: italic;
 }
 .footer p{
     color:aliceblue;
